@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: "header header"
+                         "sidebar main"
+                         "footer footer";
+    grid-gap: 5px;
+    grid-template-columns: 200px 6fr;
+    grid-template-rows: 1fr 6fr 1fr;
+}
+
+
+main {
+    grid-area: main;
+    background: black;
+}
+
+
+img {
+    max-width: 100%;
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.time{
+    color: red;
+    text-align: center;
+    font-size: xx-large;
+}
+.text{
+    color: #e76f00;
+    text-align: center;
+    font-size: large;
+}
